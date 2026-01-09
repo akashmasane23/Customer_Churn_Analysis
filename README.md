@@ -35,34 +35,16 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ## 📊 Key Business Questions Addressed
 
-1. What is the **overall churn rate**?
-2. How does churn vary by **gender**?
-3. Which **contract types** have the highest churn?
-4. Do customers with **shorter tenure** churn more?
-5. How does churn differ by **payment method**?
-6. Which services are associated with higher churn?
-7. Monthly charges comparison between churned and retained customers
-8. Which customer segments are at **highest churn risk**?
-
----
-
-## 📈 KPIs Used in Dashboard
-
-- **Total Customers**
-- **Churned Customers**
-- **Churn Rate (%)**
-
----
-
-## 📊 Power BI Dashboard Visuals
-
-- KPI Cards (Total Customers, Churn Rate)
-- Line Chart – Churn trend by tenure
-- Clustered Bar Chart – Churn by gender / contract type
-- Stacked Bar Chart – Churn by services
-- Gauge Chart – Churn rate vs target
-- Slicers – Gender, Contract Type, Payment Method
-- Q&A Visual – Natural language questions (e.g., *"churn rate for month-to-month customers"* )
+1. What is the overall churn rate?
+2. How does churn vary by contract type?
+3. Which payment methods have the highest churn?
+4. Is churn higher among senior citizens?
+5. What is the average tenure of churned vs retained customers?
+6. Do higher monthly charges lead to higher churn?
+7. Which internet service users churn the most?
+8. What is the revenue loss due to churn?
+9. Which contract type causes the highest revenue loss?
+10. Who are the high-risk churn customers (tenure < 12 months)?
 
 ---
 
