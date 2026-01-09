@@ -48,6 +48,13 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 ---
 
+## 📊 Power BI Dashboard Preview
+
+![Power BI Dashboard](dashboard_screenshot.png)
+*Interactive Power BI dashboard showing customer churn KPIs, trends, and segmentation.*
+
+---
+
 ## 💡 Key Insights
 
 - Month-to-month contracts show the **highest churn**
