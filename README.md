@@ -1,117 +1,97 @@
-📊 Telco Customer Churn Analysis
+# 📉 Telco Customer Churn Analysis
 
-📌 Project Overview
+**Analyze telecom customer data to identify churn patterns, understand customer behavior, and support retention-focused business decisions.**
 
-Customer churn is a major challenge for subscription-based businesses, as losing customers directly impacts revenue and long-term growth. This project analyzes customer churn behavior using the Telco Customer Churn dataset to identify key factors that influence customer attrition and provide actionable business insights.
+This project uses **Python (Jupyter Notebook), SQL, and Power BI** to analyze the **Telco Customer Churn dataset** from Kaggle and extract actionable business insights.
 
-The project combines data analysis, SQL-based business querying, and interactive Power BI visualization to support data-driven decision-making and customer retention strategies.
+Dataset:  
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
+---
 
-🎯 Objectives
+## 📂 Project Workflow
 
-Analyze the distribution of churned vs retained customers
+1. **Data Cleaning & Exploration (Python – Jupyter Notebook)**
+   - Loaded and cleaned the dataset
+   - Handled missing and inconsistent values
+   - Converted data types (e.g., `TotalCharges`)
+   - Performed exploratory data analysis (EDA) on churn patterns
 
-Identify high-risk customer segments
+2. **Business Analysis (SQL)**
+   - Loaded cleaned data into a SQL database
+   - Answered churn-related business questions using SQL queries
+   - Analyzed churn by gender, contract type, payment method, tenure, and services
 
-Understand the impact of tenure, contract type, services, and pricing on churn
+3. **Visualization & Dashboard (Power BI)**
+   - Built an interactive Power BI dashboard
+   - Visualized churn KPIs, trends, and customer segments
+   - Enabled filtering using slicers for deeper analysis
 
-Quantify revenue loss due to customer churn
+4. **Insights & Recommendations**
+   - Identified high-risk customer segments
+   - Suggested data-driven retention strategies
 
-Present insights through interactive dashboards
+---
 
+## 📊 Key Business Questions Addressed
 
-🗂️ Dataset
+1. What is the **overall churn rate**?
+2. How does churn vary by **gender**?
+3. Which **contract types** have the highest churn?
+4. Do customers with **shorter tenure** churn more?
+5. How does churn differ by **payment method**?
+6. Which services are associated with higher churn?
+7. Monthly charges comparison between churned and retained customers
+8. Which customer segments are at **highest churn risk**?
 
-Source: Kaggle – Telco Customer Churn
+---
 
-Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+## 📈 KPIs Used in Dashboard
 
-Records: 7,043 customers
+- **Total Customers**
+- **Churned Customers**
+- **Churn Rate (%)**
 
-Features: Customer demographics, account details, service usage, billing information, churn status
+---
 
+## 📊 Power BI Dashboard Visuals
 
-🛠️ Tools & Technologies
+- KPI Cards (Total Customers, Churn Rate)
+- Line Chart – Churn trend by tenure
+- Clustered Bar Chart – Churn by gender / contract type
+- Stacked Bar Chart – Churn by services
+- Gauge Chart – Churn rate vs target
+- Slicers – Gender, Contract Type, Payment Method
+- Q&A Visual – Natural language questions (e.g., *"churn rate for month-to-month customers"* )
 
-Python (Jupyter Notebook) – Data cleaning & exploratory data analysis (EDA)
+---
 
-SQL (MySQL) – Business questions and analytical queries
+## 💡 Key Insights
 
-Power BI – Interactive dashboard & data visualization
+- Month-to-month contracts show the **highest churn**
+- Customers with **low tenure** are more likely to churn
+- **Electronic check** payment method has higher churn
+- Higher **monthly charges** increase churn probability
+- Long-term contracts reduce churn significantly
 
+---
 
-📘 Project Workflow
-1️⃣ Data Analysis (Jupyter Notebook)
+## 📌 Recommendations
 
-Loaded and explored the dataset
+- Promote **long-term contracts** to reduce churn
+- Offer retention plans for **high monthly charge** customers
+- Improve onboarding for **new customers**
+- Encourage **auto-payment methods**
+- Target high-risk segments with personalized offers
 
-Cleaned and transformed data (e.g., TotalCharges)
+---
 
-Performed EDA using visualizations
+## 🛠️ Tools & Technologies
 
-Identified churn trends by tenure, contract type, pricing, and services
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
+- SQL (MySQL / PostgreSQL)
+- Power BI
+- Kaggle Dataset
 
-2️⃣ SQL Business Analysis
-
-Calculated overall churn rate
-
-Analyzed churn by contract type, payment method, and services
-
-Estimated revenue loss due to churn
-
-Identified high-risk churn customer segments
-
-3️⃣ Power BI Dashboard
-
-Built an interactive dashboard with:
-
-KPI Cards (Churn Rate, Churned Customers, Revenue Lost)
-
-Gauge (Churn Rate vs Target)
-
-Stacked Bar Chart (Churn by Contract Type)
-
-Clustered Bar Chart (Churn by Internet Service)
-
-Line Chart (Churn Trend by Tenure)
-
-List Slicers (Contract, Internet Service, Payment Method, Gender)
-
-Q&A visual for natural language insights
-
-
-📊 Key Insights
-
-Customers on month-to-month contracts show the highest churn
-
-Early-tenure customers are more likely to churn
-
-Higher monthly charges are associated with increased churn
-
-Fiber optic users contribute significantly to churn and revenue loss
-
-Electronic check payment method has higher churn compared to automatic payments
-
-
-🎯 Business Value
-
-This analysis helps businesses:
-
-Detect early warning signs of customer churn
-
-Focus retention strategies on high-risk customer segments
-
-Improve pricing, contract, and service offerings
-
-Reduce revenue loss through data-driven decisions
-
-
-🚀 Future Enhancements
-
-Add predictive churn modeling
-
-Perform customer segmentation
-
-Automate data refresh for dashboards
-
-Extend analysis to other industries
+---
