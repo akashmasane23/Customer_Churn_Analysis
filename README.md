@@ -1,9 +1,11 @@
 📊 Telco Customer Churn Analysis
+
 📌 Project Overview
 
 Customer churn is a major challenge for subscription-based businesses, as losing customers directly impacts revenue and long-term growth. This project analyzes customer churn behavior using the Telco Customer Churn dataset to identify key factors that influence customer attrition and provide actionable business insights.
 
 The project combines data analysis, SQL-based business querying, and interactive Power BI visualization to support data-driven decision-making and customer retention strategies.
+
 
 🎯 Objectives
 
@@ -17,6 +19,7 @@ Quantify revenue loss due to customer churn
 
 Present insights through interactive dashboards
 
+
 🗂️ Dataset
 
 Source: Kaggle – Telco Customer Churn
@@ -27,6 +30,7 @@ Records: 7,043 customers
 
 Features: Customer demographics, account details, service usage, billing information, churn status
 
+
 🛠️ Tools & Technologies
 
 Python (Jupyter Notebook) – Data cleaning & exploratory data analysis (EDA)
@@ -34,6 +38,7 @@ Python (Jupyter Notebook) – Data cleaning & exploratory data analysis (EDA)
 SQL (MySQL) – Business questions and analytical queries
 
 Power BI – Interactive dashboard & data visualization
+
 
 📘 Project Workflow
 1️⃣ Data Analysis (Jupyter Notebook)
@@ -74,6 +79,7 @@ List Slicers (Contract, Internet Service, Payment Method, Gender)
 
 Q&A visual for natural language insights
 
+
 📊 Key Insights
 
 Customers on month-to-month contracts show the highest churn
@@ -86,6 +92,7 @@ Fiber optic users contribute significantly to churn and revenue loss
 
 Electronic check payment method has higher churn compared to automatic payments
 
+
 🎯 Business Value
 
 This analysis helps businesses:
@@ -97,6 +104,7 @@ Focus retention strategies on high-risk customer segments
 Improve pricing, contract, and service offerings
 
 Reduce revenue loss through data-driven decisions
+
 
 🚀 Future Enhancements
 
